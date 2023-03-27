@@ -1,13 +1,13 @@
 # Advanced File Archiver
 
 This repository contains an advanced file archiver utility that demonstrates the ability to compress and decompress files using various compression algorithms, a command-line interface, recursive folder compression, cloud storage integration, progress reporting, error handling, logging, and unit testing.
-Features
 
-    Support for multiple compression algorithms: gzip, zlib, bz2, and lzma
-    Command-line interface for user interaction
-    Recursive folder compression and decompression, preserving the directory structure
-    Integration with Amazon S3 and Google Cloud Storage for direct file upload and download
-    Logging for improved robustness and maintainability
+## Features:
+    * Support for multiple compression algorithms: gzip, zlib, bz2, and lzma
+    * Command-line interface for user interaction
+    * Recursive folder compression and decompression, preserving the directory structure
+    * Integration with Amazon S3 and Google Cloud Storage for direct file upload and download
+    * Logging for improved robustness and maintainability
 
 Dependencies
 
