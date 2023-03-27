@@ -20,65 +20,45 @@ To use this utility, you'll need to install the following Python libraries:
 You can install them using the following command:
 
 
-'''
-pip install boto3 google-cloud-storage tqdm
-'''
-Usage
-Basic Usage
+    pip install boto3 google-cloud-storage tqdm
+#Usage
+##Basic Usage
 
 Compress a file:
 
+    python PyCompressCloud.py compress input.txt output.gz --algorithm gzip
 
-'''
-python PyCompressCloud.py compress input.txt output.gz --algorithm gzip
-'''
 Decompress a file:
 
+    python PyCompressCloud.py decompress input.gz output.txt --algorithm gzip
 
-
-'''
-python PyCompressCloud.py decompress input.gz output.txt --algorithm gzip
-'''
-Advanced Usage
+##Advanced Usage
 
 Compress a directory:
 
+    python PyCompressCloud.py compress input_directory output_directory --algorithm gzip
 
-'''
-python PyCompressCloud.py compress input_directory output_directory --algorithm gzip
-'''
 Decompress a directory:
 
+    python PyCompressCloud.py decompress input_directory output_directory --algorithm gzip
 
-'''
-python PyCompressCloud.py decompress input_directory output_directory --algorithm gzip
-'''
-Cloud Storage Integration
+##Cloud Storage Integration
 
 Upload a file to Amazon S3:
 
+    python PyCompressCloud.py cloud s3 upload local_file.txt my-bucket-name s3_object_key
 
-'''
-python PyCompressCloud.py cloud s3 upload local_file.txt my-bucket-name s3_object_key
-'''
 Download a file from Amazon S3:
 
+    python PyCompressCloud.py cloud s3 download local_file.txt my-bucket-name s3_object_key
 
-'''
-python PyCompressCloud.py cloud s3 download local_file.txt my-bucket-name s3_object_key
-'''
 Upload a file to Google Cloud Storage:
 
+    python PyCompressCloud.py cloud gcs upload local_file.txt my-bucket-name gcs_blob_name
 
-'''
-python PyCompressCloud.py cloud gcs upload local_file.txt my-bucket-name gcs_blob_name
-'''
 Download a file from Google Cloud Storage:
 
-
-'''
-python PyCompressCloud.py cloud gcs download local_file.txt my-bucket-name gcs_blob_name
-'''
+    python PyCompressCloud.py cloud gcs download local_file.txt my-bucket-name gcs_blob_name
 
 Credentials
 
