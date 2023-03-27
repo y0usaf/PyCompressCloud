@@ -22,7 +22,7 @@ You can install them using the following command:
 
     pip install boto3 google-cloud-storage tqdm
 #Usage
-##Basic Usage
+## Basic Usage
 
 Compress a file:
 
@@ -32,7 +32,7 @@ Decompress a file:
 
     python PyCompressCloud.py decompress input.gz output.txt --algorithm gzip
 
-##Advanced Usage
+## Advanced Usage
 
 Compress a directory:
 
@@ -42,7 +42,7 @@ Decompress a directory:
 
     python PyCompressCloud.py decompress input_directory output_directory --algorithm gzip
 
-##Cloud Storage Integration
+## Cloud Storage Integration
 
 Upload a file to Amazon S3:
 
