@@ -64,8 +64,8 @@ Credentials
 
 To use the cloud storage features, you'll need to set up the necessary credentials for AWS and GCP, following their respective documentation:
 
-    [AWS Credentials](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#configuration)
-    [GCP Credentials](https://cloud.google.com/docs/authentication/client-libraries)
+- [AWS Credentials](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/quickstart.html#configuration)
+- [GCP Credentials](https://cloud.google.com/docs/authentication/client-libraries)
 
 License
 
